@@ -1,0 +1,25 @@
+#block{
+	width: 100px;
+	height: 100px;
+	background: #9c9a7f;
+	position:absolute;
+    border: 1px solid black;
+    top:100px;
+    left:100px;
+    background-image: url(../images/cat.jpg);
+    background-size: cover;
+    transition: ease 0.2s;
+}
+button {
+	border: 1px solid green;
+    color: black;
+    background-color: white;
+    padding: 15px 20px;
+    text-align: center;
+
+}
+button:hover {
+	background-color: green;
+	color: white;
+	transition-duration:  0.4s
+}
